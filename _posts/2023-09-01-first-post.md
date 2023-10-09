@@ -3,7 +3,7 @@ layout: post
 title:  "Writing a Blog with ChatGPT"
 author: Connor Thompson
 description: Short yet informative description
-image: "/path/to/image" or "url_to_image"
+image: "/assets/images/image5.jpg"
 ---
 
 Hello World!
