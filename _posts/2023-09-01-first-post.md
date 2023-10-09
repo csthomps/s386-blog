@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Post Name"
+title:  "Writing a Blog with ChatGPT"
 author: Connor Thompson
 description: Short yet informative description
 image: "/path/to/image" or "url_to_image"
