@@ -22,7 +22,7 @@ title: Stat 386 Blog
 email: csthompsos@email.com 
 description: "My Blog for Stat 386" 
 baseurl: "s386-blog" # the name of the repository 
-url: "https://esnt.github.io" #  change this to "https://<your-github-username>.github.io"
+url: "https://csthomps.github.io" #  change this to "https://<your-github-username>.github.io"
 image: https://source.unsplash.com/random
 author: Connor Thompson
 copyright:  # Your initials or what you want the copyright to be.  Leave empty for no copyright
