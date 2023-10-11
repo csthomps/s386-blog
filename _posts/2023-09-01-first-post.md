@@ -92,7 +92,7 @@ Chatgpt is exceptionally good at writing code when given a well phrased problem,
 
 ```
 **Me:** 
-I have a dataframe of weather at airports in new york.  here are the columns:'origin', 
+I have a dataframe of weather at As my examples illustrated, the two main problems are mistakes and knowledge gaps.  ChatGPT is an artificial intelligence, but because it is trained on human data it shares a defining trait with humans - it frequently makes mistakes.  Some of these are simple, such as syntax errors in code or misunderstanding problems.   in new york.  here are the columns:'origin', 
         'year', 'month', 'day', 'hour', 'temp', 'dewp', 'humid',
        'wind_dir', 'wind_speed', 'wind_gust', 'precip', 'pressure', 'visib',
        'time_hour'
@@ -175,7 +175,7 @@ give me 3 data science topics I could blog about using python
 3. Machine Learning Model Interpretability:
 - Explain the importance of understanding and interpreting machine learning models.
 - Discuss techniques like SHAP (SHapley Additive exPlanations) values, LIME 
-(Local Interpretable Model-agnostic Explanations), and feature importance.
+    (Local Interpretable Model-agnostic Explanations), and feature importance.
 - Show examples using popular Python libraries such as shap, lime, and scikit-learn.
 
 Remember to provide code examples, visualizations, and practical applications for 
@@ -220,24 +220,45 @@ and give me resources and papers I can use to research those subtopics
 1. Introduction to Machine Learning Interpretability:
 - Provide an overview of why machine learning interpretability is important.
 - Explain the potential impact on decision-making, ethics, and model deployment.
+
 Resources:
 - Article: "Why Should I Trust You?": Explaining the Predictions of Any Classifier
-by Marco Tulio Ribeiro, et al.
+    by Marco Tulio Ribeiro, et al.
+
+
 2. Techniques for Interpreting Machine Learning Models:
 - Discuss popular techniques for model interpretation like SHAP values, LIME, and feature importance.
 - Provide practical examples of applying these techniques.
+
 Resources:
 - Paper: "A Unified Approach to Interpreting Model Predictions" by Scott Lundberg and Su-In Lee.
 - Package Documentation: SHAP (SHapley Additive exPlanations)
 - Package Documentation: LIME (Local Interpretable Model-agnostic Explanations)
+
+
 3. Real-World Applications and Case Studies:
 - Provide concrete examples of how interpretability has been applied in various industries 
-(e.g., healthcare, finance, autonomous vehicles).
+    (e.g., healthcare, finance, autonomous vehicles).
 - Discuss success stories and challenges faced in implementing interpretable models.
+
 Resources:
 - Article: "Explainable Artificial Intelligence: Understanding, 
-Visualizing and Interpreting Deep Learning Models" by K. Holzinger, et al.
+    Visualizing and Interpreting Deep Learning Models" by K. Holzinger, et al.
 - Blog Post: Interpretable Machine Learning with XGBoost by Andras Zsom.
 ```
-It even gave me links to each of those articles and resources it suggested, making it easy to go research and dive deep into them if I chose to.  As you can see, ChatGPT can make the process of brainstorming ideas and subtopics much faster than it would be if you did it yourself.  It even has the capability to find you sources you can use to research and cite in your blog. One warning is to keep in mind ChatGPT's knowledge cutoff, which is around September 2021.  Because of that, it may not be able to give you current, recent research from after that date.  However, it can still be a great way to get a good idea of where to look and what to look for.
+It even gave me links to each of those articles and resources it suggested, making it easy to go research and dive deep into them if I chose to.  As you can see, ChatGPT can make the process of brainstorming ideas and subtopics much faster than it would be if you did it yourself.  It even has the capability to find you sources you can use to research and cite in your blog. 
 
+One warning is to keep in mind ChatGPT's knowledge cutoff, which is around September 2021.  Because of that, it may not be able to give you current, recent research from after that date.  However, it can still be a great way to get a good idea of where to look and what to look for.
+
+---
+---
+
+##General Warnings
+
+While ChatGPT is a very powerful tool, there are some things you always need to keep in mind while using it.  As my examples illustrated, the two main problems are mistakes and knowledge gaps.  ChatGPT is an artificial intelligence, but because it is trained on human data it shares a defining trait with humans - it frequently makes mistakes.  
+
+Some of these are simple, such as syntax errors in code or misunderstanding questions.  Other times, it can be more serious.  There have been cases where ChatGPT has completely made up facts, and some people have gotten into <a href="https://www.forbes.com/sites/mollybohannon/2023/06/08/lawyer-used-chatgpt-in-court-and-cited-fake-cases-a-judge-is-considering-sanctions/?sh=104fb3077c7f" target="_blank">big trouble</a> because of it.  
+
+Part of the reason this happens is because of ChatGPT's knowledge cutoff.  If you ask it to produce knowledge that it doesn't have, it will simply make something up to appease you.  Be careful not to ask it for something it can't give you.  On top of that, be careful to **fact check** anything it tells you.  Run the code, search for the sources, validate the facts, double check everything it provides.  
+
+You should also make sure to cite when you use ChatGPT, just like any other source.  Because it is such a new technology, how and when to cite AI models is a big question.  However, there are <a href="https://apastyle.apa.org/blog/how-to-cite-chatgpt" target="_blank">some style guides</a> out there that you should consider using.
