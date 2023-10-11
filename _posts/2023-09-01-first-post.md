@@ -15,9 +15,122 @@ Experts have said that blogging about Data Science <a href="https://towardsdatas
 ## How?
 
 Using ChatGPT is very easy.  All you have to do is log in at <a href="https://chat.openai.com/" target="_blank">OpenAI's site</a> and start chatting away.  For example, ChatGPT can be very useful for answering syntax questions:
-'''
-**Me:** "I am writting a blog about using chatgpt to help blogging.  How can I make responses to example questions I ask you look like they come from you?"
+```
+**Me:** I am writting a blog about using chatgpt to help blogging.  How can I make responses to example questions I ask you look like they come from you?
 
-**ChatGPT:**To format text in markdown, you can use various syntax elements. For example, to make text bold, you can use double asterisks or double underscores like `**bold**` or `__bold__`. Similarly, to make text italic, you can use single asterisks or single underscores like `*italic*` or `_italic_`. There are many other formatting options available in markdown as well.
-'''
+**ChatGPT:** To format text in markdown, you can use various syntax elements. For example, to make text bold, you can use double asterisks or double underscores like `**bold**` or `__bold__`. Similarly, to make text italic, you can use single asterisks or single underscores like `*italic*` or `_italic_`. There are many other formatting options available in markdown as well.
+```
 It gave me several other suggestions even on top of those.  I will be using the same formatting as above for the rest of this blog, using text chunks to separate conversations with ChatGPT and clearly demarking who is speaking.  
+
+---
+---
+## What?
+
+Now you are probably wondering "what exactly can I do with this AI?".  Here are some examples, in its own words:
+```
+**Me:** I am writing a blog about how to use chagpt to help write blogs about data science.  What are some specific things you can do in order to help the blog writing process?
+
+**ChatGPT:**
+1. Generate Introductions and Conclusions:
+    * ChatGPT can help craft engaging introductions that provide context and set the tone for your data science blog. It can also assist in creating effective conclusions that summarize key points and provide a call to action.
+
+2. Explain Complex Concepts:
+    * If you're writing about intricate data science concepts, ChatGPT can help break them down into simpler terms, making them more accessible to a wider audience.
+
+3. Provide Code Examples:
+    * ChatGPT can generate code snippets or examples for various data science tasks, helping illustrate your points effectively.
+
+4. Offer Insights and Analysis:
+    * You can use ChatGPT to help analyze data or discuss trends and patterns you've observed, providing valuable insights for your readers.
+
+5. Answer FAQs:
+    * ChatGPT can be used to address common questions or concerns related to data science topics, enriching your blog with informative content.
+
+6. Generate Visualizations and Charts:
+    * While it can't directly create visual content, ChatGPT can help describe how to create specific visualizations or explain the insights they convey.
+
+7. Provide References and Citations:
+    * ChatGPT can help suggest relevant research papers, articles, or resources to support your claims and provide additional reading for your audience.
+
+8. Enhance Clarity and Coherence:
+    * It can assist in refining sentence structure, ensuring that the content is clear, concise, and flows smoothly.
+
+9. Generate Ideas for Topics or Subtopics:
+    * If you're struggling to come up with new blog topics within the data science realm, ChatGPT can generate ideas based on current trends or emerging technologies.
+
+10. Proofreading and Editing:
+    * While not infallible, ChatGPT can help catch grammar and spelling errors, providing a first pass at proofreading.
+
+11. Provide Context and Background Information:
+    * If your blog refers to specific methodologies, algorithms, or technologies, ChatGPT can offer explanations or background information to give readers a better understanding.
+
+12. Offer Tips and Best Practices:
+    * ChatGPT can provide recommendations on best practices for data science projects, ensuring that your blog is not only informative but also useful.
+```
+
+I'd like to give my own thoughts on a few of these examples.
+
+# Writing Code Examples
+Chatgpt is exceptionally good at writing code when given a well phrased problem, even complex ones.  Take, for example, a homework problem I had for one of my data science classes.
+
+```
+**Me:** 
+I have a dataframe of weather at airports in new york.  here are the columns:'origin', 'year', 'month', 'day', 'hour', 'temp', 'dewp', 'humid',
+       'wind_dir', 'wind_speed', 'wind_gust', 'precip', 'pressure', 'visib',
+       'time_hour'
+
+How many days had precipitation in the New York area in 2013? (That is, how many days had non-zero precipitation at at least one of the airports in the dataset during at least one of the hours.)
+
+**ChatGPT:**
+You can use pandas to perform this operation. Here's how you can do it:
+
+import pandas as pd
+
+# Assuming df is your DataFrame
+# Load your data or create your DataFrame
+
+# Filter for the year 2013
+df_2013 = df[df['year'] == 2013]
+
+# Check for non-zero precipitation
+precipitation_days = df_2013[df_2013['precip'] > 0]
+
+# Get unique dates with precipitation
+unique_precipitation_dates = precipitation_days[['year', 'month', 'day']].drop_duplicates()
+
+# Get the count of unique dates
+num_days_with_precipitation = unique_precipitation_dates.shape[0]
+
+print(f"Number of days with precipitation in 2013: {num_days_with_precipitation}")
+```
+It even goes on to give a solid explanation of what each line of code is doing and how it works.  Used this way, ChatGPT can be very useful for generating code to put on a blog.
+
+
+Another great use for ChatGPT's code capabilities is language translation.  It can be very good for translating code from, for example, python to R, or vice versa.  Lets use the code from the previous chat for example:
+```
+**Me:** 
+Please translate this code from python to R:
+*I won't repeat it to save room*
+
+**ChatGPT:**
+Here is the equivalent R code:
+
+# Assuming df is your DataFrame
+# Load your data or create your DataFrame
+
+# Filter for the year 2013
+df_2013 <- df[df$year == 2013,]
+
+# Check for non-zero precipitation
+precipitation_days <- df_2013[df_2013$precip > 0,]
+
+# Get unique dates with precipitation
+unique_precipitation_dates <- unique(precipitation_days[c('year', 'month', 'day')])
+
+# Get the count of unique dates
+num_days_with_precipitation <- nrow(unique_precipitation_dates)
+
+cat("Number of days with precipitation in 2013:", num_days_with_precipitation, "\n")
+```
+
+A major consideration to keep in mind while using ChatGPT to write and translate code is to make sure that it **actually works**.  While it is highly accurate, it occasionally makes mistakes, and it would be very embarassing for someone to read your blog and notice that the code wouldn't work.  Another problem is that, because of it's knowledge cutoff, it sometimes uses deprecated methods or libraries.  **Always** make sure to run the code on your own device within your environment. 
