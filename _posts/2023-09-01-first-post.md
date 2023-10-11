@@ -248,7 +248,7 @@ Resources:
 ```
 It even gave me links to each of those articles and resources it suggested, making it easy to go research and dive deep into them if I chose to.  As you can see, ChatGPT can make the process of brainstorming ideas and subtopics much faster than it would be if you did it yourself.  It even has the capability to find you sources you can use to research and cite in your blog. 
 
-One warning is to keep in mind ChatGPT's knowledge cutoff, which is around September 2021.  Because of that, it may not be able to give you current, recent research from after that date.  However, it can still be a great way to get a good idea of where to look and what to look for.
+One thing to keep in mind is that ChatGPT has a knowledge cutoff.  Because of this, it may not be able to give you current, up to date research from since its cutoff.  However, it can still be a great way to get a good idea of where to look and what to look for.
 
 ---
 ---
@@ -259,6 +259,6 @@ While ChatGPT is a very powerful tool, there are some things you always need to 
 
 Some of these are simple, such as syntax errors in code or misunderstanding questions.  Other times, it can be more serious.  There have been cases where ChatGPT has completely made up facts, and some people have gotten into <a href="https://www.forbes.com/sites/mollybohannon/2023/06/08/lawyer-used-chatgpt-in-court-and-cited-fake-cases-a-judge-is-considering-sanctions/?sh=104fb3077c7f" target="_blank">big trouble</a> because of it.  
 
-Part of the reason this happens is because of ChatGPT's knowledge cutoff.  If you ask it to produce knowledge that it doesn't have, it will simply make something up to appease you.  Be careful not to ask it for something it can't give you.  On top of that, be careful to **fact check** anything it tells you.  Run the code, search for the sources, validate the facts, double check everything it provides.  
+Part of the reason this happens is because of ChatGPT's knowledge cutoff, which is around September 2021.  If you ask it to produce knowledge that it doesn't have, it will simply make something up to appease you.  Be careful not to ask it for something it can't give you.  On top of that, be careful to **fact check** anything it tells you.  Run the code, search for the sources, validate the facts, double check everything it provides.  
 
 You should also make sure to cite when you use ChatGPT, just like any other source.  Because it is such a new technology, how and when to cite AI models is a big question.  However, there are <a href="https://apastyle.apa.org/blog/how-to-cite-chatgpt" target="_blank">some style guides</a> out there that you should consider using.
