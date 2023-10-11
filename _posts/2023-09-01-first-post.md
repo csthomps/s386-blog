@@ -263,6 +263,9 @@ Part of the reason this happens is because of ChatGPT's knowledge cutoff, which 
 
 You should also make sure to cite when you use ChatGPT, just like any other source.  Because it is such a new technology, how and when to cite AI models is a big question.  However, there are <a href="https://apastyle.apa.org/blog/how-to-cite-chatgpt" target="_blank">some style guides</a> out there that you should consider using.
 
+---
+---
+
 ## Conclusion
 
 In conclusion, ChatGPT has the potential to greatly streamline your blog writing process, whether about Data Science or any other topic.  Be creative in your use of it, and it will give you ideas to write about, code to use, and much more.  Just make sure to be careful to double check its information, be aware of its limitations, and cite it as a source so you don't get into trouble.  If you do all of this, you will be able to unleash the writing power of ChatGPT; your ultimate blogging sidekick!
