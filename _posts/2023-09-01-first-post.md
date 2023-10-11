@@ -253,7 +253,7 @@ One thing to keep in mind is that ChatGPT has a knowledge cutoff.  Because of th
 ---
 ---
 
-##General Warnings
+## General Warnings
 
 While ChatGPT is a very powerful tool, there are some things you always need to keep in mind while using it.  As my examples illustrated, the two main problems are mistakes and knowledge gaps.  ChatGPT is an artificial intelligence, but because it is trained on human data it shares a defining trait with humans - it frequently makes mistakes.  
 
