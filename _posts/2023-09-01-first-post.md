@@ -32,7 +32,7 @@ It gave me several other suggestions even on top of those.  I will be using the 
 
 Now you are probably wondering "what exactly can I do with this AI?".  Here are some examples, in its own words:
 ```
-**Me:** I am writing a blog about how to use chagpt to help write blogs about data science.  
+**Me:** I am writing a blog in markdown about how to use chagpt to help write blogs about data science.  
 What are some specific things you can do in order to help the blog writing process?
 
 **ChatGPT:**
@@ -62,18 +62,20 @@ What are some specific things you can do in order to help the blog writing proce
     specific visualizations or explain the insights they convey.
 
 7. Provide References and Citations:
-    - ChatGPT can help suggest relevant research papers, articles, or resources to support your claims 
-    and provide additional reading for your audience.
+    - ChatGPT can help suggest relevant research papers, articles, or resources to support 
+    your claims and provide additional reading for your audience.
 
 8. Enhance Clarity and Coherence:
-    - It can assist in refining sentence structure, ensuring that the content is clear, concise, and flows smoothly.
+    - It can assist in refining sentence structure, ensuring that the content is 
+    clear, concise, and flows smoothly.
 
 9. Generate Ideas for Topics or Subtopics:
     - If you're struggling to come up with new blog topics within the data science realm, 
     ChatGPT can generate ideas based on current trends or emerging technologies.
 
 10. Proofreading and Editing:
-    - While not infallible, ChatGPT can help catch grammar and spelling errors, providing a first pass at proofreading.
+    - While not infallible, ChatGPT can help catch grammar and spelling errors, 
+    providing a first pass at proofreading.
 
 11. Provide Context and Background Information:
     - If your blog refers to specific methodologies, algorithms, or technologies, 
@@ -96,8 +98,9 @@ I have a dataframe of weather at airports in new york.  here are the columns:'or
        'wind_dir', 'wind_speed', 'wind_gust', 'precip', 'pressure', 'visib',
        'time_hour'
 
-How many days had precipitation in the New York area in 2013? (That is, how many 
-days had non-zero precipitation at at least one of the airports in the dataset during at least one of the hours.)
+How many days had precipitation in the New York area in 2013? 
+(That is, how many days had non-zero precipitation at at least one of the 
+airports in the dataset during at least one of the hours.)
 
 **ChatGPT:**
 You can use pandas to perform this operation. Here's how you can do it:
