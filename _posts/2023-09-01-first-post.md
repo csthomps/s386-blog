@@ -85,8 +85,7 @@ What are some specific things you can do in order to help the blog writing proce
     - ChatGPT can provide recommendations on best practices for data science projects, 
     ensuring that your blog is not only informative but also useful.
 ```
-
-I'd like to give my own thoughts on a few of these examples.
+This is a very long, yet not comprehensive list of what it can do.  What you can do with ChatGPT as your assistant is really only limited by your imagination.  That said, there are some limits.  I'd like to give my own thoughts on a few of these examples, and illustrate the strengths and weaknesses to keep in mind while using ChatGPT.
 
 ### Writing Code Examples
 Chatgpt is exceptionally good at writing code when given a well phrased problem, even complex ones.  Take, for example, a homework problem I had for one of my data science classes.
