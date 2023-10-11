@@ -88,7 +88,7 @@ What are some specific things you can do in order to help the blog writing proce
 
 I'd like to give my own thoughts on a few of these examples.
 
-# Writing Code Examples
+### Writing Code Examples
 Chatgpt is exceptionally good at writing code when given a well phrased problem, even complex ones.  Take, for example, a homework problem I had for one of my data science classes.
 
 ```
@@ -155,3 +155,90 @@ cat("Number of days with precipitation in 2013:", num_days_with_precipitation, "
 ```
 
 A major consideration to keep in mind while using ChatGPT to write and translate code is to make sure that it **actually works**.  While it is highly accurate, it occasionally makes mistakes, and it would be very embarassing for someone to read your blog and notice that the code wouldn't work.  Another problem is that, because of it's knowledge cutoff, it sometimes uses deprecated methods or libraries.  **Always** make sure to run the code on your own device within your environment. 
+
+### Generating Ideas for Topics
+
+This is another great use for ChatGPT - I am even using this advice to write this blog.  ChatGPT can be great to come up with ideas that would make for interesting blogs, and it can also tailor its ideas to fit specifications you want.  For example:
+```
+**Me:**
+give me 3 data science topics I could blog about using python
+
+1. Time Series Analysis and Forecasting:
+- Discuss methods for analyzing time-dependent data.
+- Introduce libraries like pandas and statsmodels for handling time series data.
+- Cover techniques such as ARIMA, Exponential Smoothing, and Prophet for forecasting.
+
+2. Natural Language Processing (NLP) and Text Analysis:
+- Explore how to process and analyze text data using Python.
+- Cover topics like tokenization, sentiment analysis, and topic modeling.
+- Showcase libraries like nltk, spaCy, and gensim.
+
+3. Machine Learning Model Interpretability:
+- Explain the importance of understanding and interpreting machine learning models.
+- Discuss techniques like SHAP (SHapley Additive exPlanations) values, LIME 
+(Local Interpretable Model-agnostic Explanations), and feature importance.
+- Show examples using popular Python libraries such as shap, lime, and scikit-learn.
+
+Remember to provide code examples, visualizations, and practical applications for 
+each topic to make your blog post informative and engaging for your readers.
+
+**Me:**
+Now give me 3 blog ideas for an undergraduate student with limited 
+data science knowledge, that would use code in R
+
+**ChatGPT:**
+Certainly! Here are three blog ideas tailored for undergraduate students with 
+limited data science knowledge, using R:
+
+1. Introduction to Data Visualization with R:
+- Provide an overview of basic data visualization concepts.
+- Introduce popular R packages like ggplot2.
+- Walk through creating simple plots like scatter plots, bar charts, and line graphs.
+
+2. Exploratory Data Analysis (EDA) using R:
+- Explain the importance of EDA in understanding datasets.
+- Cover basic summary statistics, data cleaning, and visualization techniques.
+- Use R and packages like dplyr and ggplot2 for hands-on examples.
+
+3. Introduction to Linear Regression in R:
+- Introduce the concept of linear regression and its applications.
+- Explain how to perform simple linear regression using R.
+- Provide a step-by-step guide with code examples using a dataset.
+
+These blog ideas are designed to gently introduce undergraduate students to 
+data science concepts using R, starting from the basics. It's important to include clear explanations,
+code snippets, and visuals to help them grasp the concepts easily.
+
+```
+As you can see, it can easily give you specific ideas tailored to your needs and interests, and even give you suggestions of topics to write about it.  Say I chose to write about Machine Learning Interpretability.
+```
+**Me:**
+I have decided to write a post about machine learning interpretability.  
+Please give me 3 specific subtopics to break my post into, 
+and give me resources and papers I can use to research those subtopics
+
+**ChatGPT:**
+1. Introduction to Machine Learning Interpretability:
+- Provide an overview of why machine learning interpretability is important.
+- Explain the potential impact on decision-making, ethics, and model deployment.
+Resources:
+- Article: "Why Should I Trust You?": Explaining the Predictions of Any Classifier
+by Marco Tulio Ribeiro, et al.
+2. Techniques for Interpreting Machine Learning Models:
+- Discuss popular techniques for model interpretation like SHAP values, LIME, and feature importance.
+- Provide practical examples of applying these techniques.
+Resources:
+- Paper: "A Unified Approach to Interpreting Model Predictions" by Scott Lundberg and Su-In Lee.
+- Package Documentation: SHAP (SHapley Additive exPlanations)
+- Package Documentation: LIME (Local Interpretable Model-agnostic Explanations)
+3. Real-World Applications and Case Studies:
+- Provide concrete examples of how interpretability has been applied in various industries 
+(e.g., healthcare, finance, autonomous vehicles).
+- Discuss success stories and challenges faced in implementing interpretable models.
+Resources:
+- Article: "Explainable Artificial Intelligence: Understanding, 
+Visualizing and Interpreting Deep Learning Models" by K. Holzinger, et al.
+- Blog Post: Interpretable Machine Learning with XGBoost by Andras Zsom.
+```
+It even gave me links to each of those articles and resources it suggested, making it easy to go research and dive deep into them if I chose to.  As you can see, ChatGPT can make the process of brainstorming ideas and subtopics much faster than it would be if you did it yourself.  It even has the capability to find you sources you can use to research and cite in your blog. One warning is to keep in mind ChatGPT's knowledge cutoff, which is around September 2021.  Because of that, it may not be able to give you current, recent research from after that date.  However, it can still be a great way to get a good idea of where to look and what to look for.
+
