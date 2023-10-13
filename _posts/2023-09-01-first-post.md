@@ -32,8 +32,8 @@ It gave me several other suggestions even on top of those.  I will be using the 
 
 Now you are probably wondering "what exactly can I do with this AI?".  Here are some examples, in its own words:
 ```
-**Me:** I am writing a blog in markdown about how to use chagpt to help write blogs about data science.  
-What are some specific things you can do in order to help the blog writing process?
+**Me:** I am writing a blog in markdown about how to use chagpt to help write blogs about 
+data science.  What are some specific things you can do in order to help the blog writing process?
 
 **ChatGPT:**
 1. Generate Introductions and Conclusions:
@@ -92,7 +92,7 @@ Chatgpt is exceptionally good at writing code when given a well phrased problem,
 
 ```
 **Me:** 
-I have a dataframe of weather at As my examples illustrated, the two main problems are mistakes and knowledge gaps.  ChatGPT is an artificial intelligence, but because it is trained on human data it shares a defining trait with humans - it frequently makes mistakes.  Some of these are simple, such as syntax errors in code or misunderstanding problems.   in new york.  here are the columns:'origin', 
+I have a dataframe of weather at new york.  here are the columns:'origin', 
         'year', 'month', 'day', 'hour', 'temp', 'dewp', 'humid',
        'wind_dir', 'wind_speed', 'wind_gust', 'precip', 'pressure', 'visib',
        'time_hour'
@@ -205,8 +205,8 @@ limited data science knowledge, using R:
 - Provide a step-by-step guide with code examples using a dataset.
 
 These blog ideas are designed to gently introduce undergraduate students to 
-data science concepts using R, starting from the basics. It's important to include clear explanations,
-code snippets, and visuals to help them grasp the concepts easily.
+data science concepts using R, starting from the basics. It's important to include clear 
+explanations, code snippets, and visuals to help them grasp the concepts easily.
 
 ```
 As you can see, it can easily give you specific ideas tailored to your needs and interests, and even give you suggestions of topics to write about it.  Say I chose to write about Machine Learning Interpretability.
@@ -227,7 +227,8 @@ Resources:
 
 
 2. Techniques for Interpreting Machine Learning Models:
-- Discuss popular techniques for model interpretation like SHAP values, LIME, and feature importance.
+- Discuss popular techniques for model interpretation like SHAP values, 
+    LIME, and feature importance.
 - Provide practical examples of applying these techniques.
 
 Resources:
