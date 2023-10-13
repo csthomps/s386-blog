@@ -16,12 +16,13 @@ Experts have said that blogging about Data Science <a href="https://towardsdatas
 
 Using ChatGPT is very easy.  All you have to do is log in at <a href="https://chat.openai.com/" target="_blank">OpenAI's site</a> and start chatting away.  For example, ChatGPT can be very useful for answering syntax questions:
 ```
-**Me:** I am writting a blog about using chatgpt to help blogging.  How can I make responses 
-to example questions I ask you look like they come from you?
+**Me:** how do i format text in markdown?
 
-**ChatGPT:** To format text in markdown, you can use various syntax elements. For example, 
-to make text bold, you can use double asterisks or double underscores like `**bold**` or `__bold__`. 
-Similarly, to make text italic, you can use single asterisks or single underscores like `*italic*` or `_italic_`. 
+**ChatGPT:** To format text in markdown, you can use various syntax elements. 
+For example, to make text bold, you can use double asterisks or 
+double underscores like `**bold**` or `__bold__`. 
+Similarly, to make text italic, you can use single asterisks or 
+single underscores like `*italic*` or `_italic_`. 
 There are many other formatting options available in markdown as well.
 ```
 It gave me several other suggestions even on top of those.  I will be using the same formatting as above for the rest of this blog, using text chunks to separate conversations with ChatGPT and clearly demarking who is speaking.  
